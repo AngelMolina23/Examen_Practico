@@ -1,0 +1,57 @@
+{
+  "presupuesto_por_metodo_y_semilla": 1000,
+  "semillas": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "version_paquete": "1.0.0",
+  "genetico": {
+    "objetivos": {
+      "B1": {
+        "ejecuciones_con_hallazgo": 2,
+        "ejecuciones_sin_hallazgo": 3,
+        "mediana_evaluaciones_hasta_hallazgo": 89.0
+      },
+      "U1": {
+        "ejecuciones_con_hallazgo": 2,
+        "ejecuciones_sin_hallazgo": 3,
+        "mediana_evaluaciones_hasta_hallazgo": 20.5
+      },
+      "A1": {
+        "ejecuciones_con_hallazgo": 2,
+        "ejecuciones_sin_hallazgo": 3,
+        "mediana_evaluaciones_hasta_hallazgo": 20.5
+      }
+    },
+    "grafos_distintos_entre_semillas": 3004,
+    "incidencias_limite": 0,
+    "incidencias_error": 0,
+    "tiempo_total_segundos": 4.075418899941724
+  },
+  "aleatorio": {
+    "objetivos": {
+      "B1": {
+        "ejecuciones_con_hallazgo": 5,
+        "ejecuciones_sin_hallazgo": 0,
+        "mediana_evaluaciones_hasta_hallazgo": 204
+      },
+      "U1": {
+        "ejecuciones_con_hallazgo": 5,
+        "ejecuciones_sin_hallazgo": 0,
+        "mediana_evaluaciones_hasta_hallazgo": 53
+      },
+      "A1": {
+        "ejecuciones_con_hallazgo": 5,
+        "ejecuciones_sin_hallazgo": 0,
+        "mediana_evaluaciones_hasta_hallazgo": 53
+      }
+    },
+    "grafos_distintos_entre_semillas": 4995,
+    "incidencias_limite": 0,
+    "incidencias_error": 0,
+    "tiempo_total_segundos": 3.0690384001354687
+  }
+}

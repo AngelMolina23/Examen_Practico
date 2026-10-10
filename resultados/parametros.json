@@ -1,0 +1,28 @@
+{
+  "version_python_requerida": ">=3.10",
+  "version_paquete_docente": "1.0.0",
+  "semillas": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "presupuesto_por_ejecucion": 1000,
+  "configuracion_genetica": {
+    "poblacion": 30,
+    "seleccion": "torneo de tamano 3",
+    "probabilidad_cruce": 0.8,
+    "probabilidad_mutacion_por_gen": 0.04,
+    "reemplazo": "elitista: mejores 30 de padres e hijos",
+    "probabilidad_arista_inicial": 0.2,
+    "limite_expansiones": 100
+  },
+  "distribucion_inicial_compartida": {
+    "probabilidad_de_arista": 0.2,
+    "costo_uniforme": [
+      1,
+      9
+    ]
+  }
+}

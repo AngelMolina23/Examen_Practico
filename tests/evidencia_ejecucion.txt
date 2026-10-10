@@ -1,0 +1,24 @@
+Evidencia de ejecucion - 2026-10-10
+===================================
+
+1. Pruebas propias
+Comando: python -m unittest discover -s tests -v
+Resultado: 7 pruebas ejecutadas, OK.
+Cobertura: conversion de grafo/cromosoma, operadores, grafo sin ruta,
+rutas alternativas de igual calidad, costo declarado incorrecto,
+presupuesto exacto y repetibilidad del GA con semilla fija.
+
+2. Contrato del paquete docente para estudiantes 1.0.0
+Comando: python -m unittest -v test_contrato
+Directorio: material_docente_busqueda/material_busqueda/estudiantes
+Resultado: 6 pruebas ejecutadas, OK.
+
+3. Comparacion principal
+Comando: python src/experimentos.py comparar
+Semillas: 11, 22, 33, 44, 55.
+Presupuesto: 1000 evaluaciones por cada metodo y semilla.
+Resultado: diez ejecuciones completas; cero incidencias de limite y cero errores.
+Hallazgos GA: B1 2/5 (mediana de exitos 89); U1 2/5 (20.5); A1 2/5 (20.5).
+Hallazgos aleatorios: B1 5/5 (mediana 204); U1 5/5 (53); A1 5/5 (53).
+Se conservaron registros completos en resultados/ y tres casos distintos
+con reproduccion fuera del ciclo en contraejemplos/.

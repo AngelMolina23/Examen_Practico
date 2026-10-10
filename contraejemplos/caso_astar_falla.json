@@ -1,0 +1,178 @@
+{
+  "metodo": "aleatorio",
+  "semilla": 22,
+  "evaluacion": 22,
+  "agente": "A1",
+  "grafo": {
+    "n": 6,
+    "inicio": 0,
+    "meta": 5,
+    "aristas": [
+      [
+        0,
+        3,
+        9
+      ],
+      [
+        1,
+        4,
+        8
+      ],
+      [
+        2,
+        1,
+        7
+      ],
+      [
+        2,
+        5,
+        9
+      ],
+      [
+        3,
+        2,
+        3
+      ],
+      [
+        3,
+        4,
+        3
+      ],
+      [
+        4,
+        5,
+        1
+      ]
+    ]
+  },
+  "referencia": {
+    "existe_ruta": true,
+    "distancia_minima_aristas": 3,
+    "costo_minimo": 13
+  },
+  "resultado": {
+    "estado": "solucion",
+    "ruta": [
+      0,
+      3,
+      2,
+      5
+    ],
+    "costo": 21,
+    "expansiones": 5,
+    "error": null
+  },
+  "discrepancias": [
+    "no_optimo"
+  ],
+  "heuristica": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "version_paquete": "1.0.0",
+  "limite_expansiones": 100,
+  "reproduccion_fuera_del_ciclo": {
+    "version_paquete": "1.0.0",
+    "heuristica": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "resultados": {
+      "B1": {
+        "resultado": {
+          "estado": "solucion",
+          "ruta": [
+            0,
+            3,
+            4,
+            5
+          ],
+          "costo": 13,
+          "expansiones": 3,
+          "error": null
+        },
+        "verificacion": {
+          "contraejemplo": false,
+          "concluyente": true,
+          "discrepancias": [],
+          "referencia": {
+            "existe_ruta": true,
+            "distancia_minima_aristas": 3,
+            "costo_minimo": 13
+          }
+        }
+      },
+      "U1": {
+        "resultado": {
+          "estado": "solucion",
+          "ruta": [
+            0,
+            3,
+            2,
+            5
+          ],
+          "costo": 21,
+          "expansiones": 3,
+          "error": null
+        },
+        "verificacion": {
+          "contraejemplo": true,
+          "concluyente": true,
+          "discrepancias": [
+            "no_optimo"
+          ],
+          "referencia": {
+            "existe_ruta": true,
+            "distancia_minima_aristas": 3,
+            "costo_minimo": 13
+          }
+        }
+      },
+      "A1": {
+        "resultado": {
+          "estado": "solucion",
+          "ruta": [
+            0,
+            3,
+            2,
+            5
+          ],
+          "costo": 21,
+          "expansiones": 5,
+          "error": null
+        },
+        "verificacion": {
+          "contraejemplo": true,
+          "concluyente": true,
+          "discrepancias": [
+            "no_optimo"
+          ],
+          "referencia": {
+            "existe_ruta": true,
+            "distancia_minima_aristas": 3,
+            "costo_minimo": 13
+          }
+        }
+      }
+    },
+    "contraejemplos": {
+      "U1": [
+        "no_optimo"
+      ],
+      "A1": [
+        "no_optimo"
+      ]
+    },
+    "incidencias": {},
+    "concluyentes": true
+  },
+  "incumplimiento": "El agente devuelve una ruta válida, pero no alcanza la cantidad minima de aristas (BFS) o el costo minimo (UCS/A*) de la referencia."
+}
