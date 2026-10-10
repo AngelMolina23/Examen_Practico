@@ -1,4 +1,17 @@
 # Informe del proyecto: búsqueda genética de contraejemplos
+# Contribuciones y recursos
+# Contribuciones del equipo
+
+Angel Yael Molina Diaz: Implementación de la representación del cromosoma y validadores (utilidades.py), diseño de los operadores de cruce y mutación, desarrollo del motor del algoritmo genético (genetico.py) y creación de las pruebas unitarias para asegurar el cumplimiento del dominio (test_propios.py).
+
+Sebastián Villarreal Morán: Desarrollo del adaptador al evaluador docente y clasificación de resultados (oraculo.py), definición de la función de aptitud lexicográfica, integración del sistema de captura de incidencias (límites y errores) y diseño de la estructura del diccionario de reportes.
+
+Manuel Alberto Manzano Calixto: Programación de la línea base aleatoria estricta (aleatorio.py), desarrollo del orquestador CLI para la ejecución automatizada de semillas (experimentos.py), y automatización de la exportación de métricas (CSV) y extracción de contraejemplos (JSON).
+
+# Revisión cruzada
+
+Todos los integrantes participaron de manera conjunta en la integración de los módulos, la revisión cruzada de los contraejemplos (verificando manualmente que las discrepancias matemáticas fueran reales y no falsos positivos) y la discusión conceptual para la redacción 
+de este informe.
 
 ## Planteamiento y representación
 
